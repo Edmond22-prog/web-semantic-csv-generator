@@ -37,7 +37,7 @@ So you need to pass `the path of the directory where the files to clean are` and
 
 ### For the script2
 
-This script generate the CEA, CTA and CPA files from the directories created by the script1. So you need to pass `the path of the directory where the directories created by the script1 are`.
+This script generate the CEA, CTA and CPA files from the directories created by the script1. So you need to pass `the path of the directory where the directories created by the script1 are`. But before that, you need to clean the file in the output directory, otherwise the CTA, CEA and CPA files will be erroneous
 
 ```bash
     python3 script2.py -d <path of the directory where the directories created by the script1 are>
