@@ -42,7 +42,7 @@ def generate_cea_file(filename: str, _from: pd.DataFrame, _for: str):
     else:
         cea_list = []
         for col in range(len(_from.columns)):
-            for row in range(len(_from.index)):
+            for row in range(len(_from.index)+1):
                 line = [filename, col, row, '']
                 cea_list.append(line)
 
